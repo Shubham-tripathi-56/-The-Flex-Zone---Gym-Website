@@ -1,0 +1,288 @@
+
+
+/* //---------------------------------------------- */
+.body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* //========================  Navbar  ======================// */
+.Navbar .navHeader {
+display:inline-block ;
+  /* width: 15vw; */
+  /* height: 7vh; */
+  text-align: center;
+
+  margin-top: 2vh;
+  margin-left: 6vw;
+  position: absolute;
+  top: 3vh;
+  left: 1vw;
+  z-index: 2;
+}
+.Navbar .navHeader p {
+  font-size: 1.6rem;
+  /* border: 2px solid orangered; */
+  color: white;
+  background: transparent;
+  /* background-color: black; */
+  background-color: rgb(245, 68, 3);
+  border-radius: 12px;
+  padding: 9px 29px;
+  font-weight: 900;
+
+}
+
+.Navbar p:hover{
+    color: aliceblue;
+    
+}
+
+/* //========================  Hero  ======================// */
+
+/* .carousel-item img , .carouse-item img{ */
+.carousel-inner img{
+  /* .carousel-item img{ */
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.FrontText{
+  position: absolute;
+  top: 22vh;
+  left: 30vw;
+  z-index: 1;
+  color: aliceblue;
+}
+
+.FrontText .titleText{
+  font-size: 4vw;
+  /* font-size: 4rem; */
+  font-weight: 900;
+}
+
+.FrontText .SubtitleText{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.FrontText .SubtitleText .SubtitleTextColour{
+  color: orangered;
+  margin-top:-2vh ;
+  font-weight: 700;
+}
+
+.Frontbutton{
+  display:flex;
+  /* width: 15vw; */
+  /* height: 7vh; */
+  text-align: center;
+ flex-wrap: wrap;
+  /* margin-top: 2vh; */
+/* margin-right: 32px; */
+}
+
+.Frontbutton p{
+  font-size: 1.2rem;
+  border: 2px solid orangered;
+  color: white;
+  background: transparent;
+  /* background-color: black; */
+  /* background-color: rgb(245, 68, 3); */
+  border-radius: 12px;
+  padding: 9px 19px;
+  font-weight: 900;
+ margin-top: .5vh;
+  cursor: pointer;
+}
+
+.Frontbutton .Frontbut2 {
+  margin-left: .5vw;
+}
+.Frontbutton p:hover{
+  background-color: rgb(245, 96, 41);
+}
+
+/* //===============================  WorkoutSessions   =====================================// */
+.WorkoutSessions{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.WorkoutSessions .card img{
+/* width: 50vw; */
+height: 75vh;
+}
+
+.WorkoutSessions .card .back:hover{
+background-color: orangered;
+color: white;
+}
+
+
+/* //===============================  Gallery   =====================================// */
+.Gallery{
+  /* background-color: rgba(23, 23, 23, 0.755); */
+  margin-top: 6vh;
+}
+.Gallery h1{
+text-align: center;
+color: orangered;
+margin-top: 2vh;
+
+
+}
+.GalleryImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1vw;
+  margin-top: 2vh;
+}
+
+.imgCol1{
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.imgCol1 img{
+  height: 30vh;
+  width: 30vw;
+  gap: 1vw;
+  border: 3px solid orangered;
+}
+
+.imgCol2{
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.imgCol2 img{
+  height: 30vh;
+  width: 30vw;
+  border: 3px solid orangered;
+}
+
+.imgCol3{
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.imgCol3 img{
+  height: 30vh;
+  width: 30vw;
+  border: 3px solid orangered;
+}
+
+
+
+/* //===============================  Pricing   =====================================// */
+.Pricing{
+  display: flex;
+  margin-top: 3vh;
+  gap: 1vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pricing .section img{
+  /* width: 25vw; */
+  height: 70vh;
+}
+/* //===============================  Contact   =====================================// */
+
+.Contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./gym/img14.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: 100vw 80vh;
+  height: 80vh;;
+  margin-top: 7vh;
+}
+.Contact .ContactForm{
+  /* background-color: aliceblue; */
+  width: 50vw;
+  /* color: white; */
+  /* margin: auto; */
+  
+}
+.Contact .ContBack{
+ 
+  background-color: white;
+  width: 60vw;
+  height: 50vh;
+  padding: 5vh 5.5vw;
+  /* box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.2), 15px 15px 15px rgba(0, 0, 0, 0.2); */
+  
+}
+/* //===============================  BMI CALCULATOR   =====================================// */
+.BMICalculator{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* height: 90vh; */
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+  gap: 5vw;
+}
+.BMICalculator .BmiForm{
+width: 50vw;
+color: white;
+font-weight: 900;
+}
+.BMICalculator .bmiMain img{
+width: 50vh;
+/* margin-bottom: 5vh; */
+}
+
+
+.BMICalculator #bmiMain{ 
+  background:url(./gym/img16.jpg);
+  background-size: 60vw 50vh;
+  width: 60vw;
+  height: 50vh;
+  padding: 5vh 5.5vw;
+
+  
+}
+
+/* //===============================  Footer  =====================================// */
+.Footer{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 30vw;
+  margin-top: 5vh;
+  flex-wrap: wrap;
+  /* width: 75vw; */
+  /* height: 22vh; */
+  padding: 2vw 3vw;
+  background-color: rgba(0, 0, 0, 0.79);
+  color: white;
+}
+
+.Footer .FooterList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  /* margin: 10vh 0vw; */
+  font-size: 2rem;
+  list-style: none;
+  margin-top: -3vh;
+}
+.Footer .FooterList li{
+  cursor: pointer;
+}
+.Footer .FooterList li:hover{
+  color: orangered;
+  transition: all 1.3s;
+}
